@@ -18,8 +18,86 @@ body {
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+.container {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.all-tweets {
+  width: 100%;
+}
+
+article.tweet {
+  display: flex;
+  /*box-shadow: ;*/
+  border: 5px solid #545149;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  margin-bottom: 2em;
+  margin-top: 2em;
+  padding: 10px;
+
+}
+article.tweet:hover {
+  box-shadow: 10px 10px #b7bdd1;
+}
+
+article.tweet header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+article.tweet footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 5px solid #545149;
+  margin-top: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: smaller;
+}
+.tweet-body {
+  padding: 25px;
+  font-weight: 500;
+}
+
+.username {
+  color: #b7bdd1;
+  padding-right: 25px;
+}
+
+.icon {
+  font-size: smaller;
+  color: #4056A1;
+}
+.fa-flag:hover {
+  color: #faad14;
+}
+.fa-retweet:hover {
+  color: #faad14;
+}
+.fa-heart:hover {
+  color: #faad14;
+}
+.face {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 25px;
+}
+.fa-user {
+  padding-right: 10px;
+}

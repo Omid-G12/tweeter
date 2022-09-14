@@ -1,0 +1,32 @@
+form {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  justify-content: space-evenly;
+}
+
+.new-tweet {
+  width: 100%;
+}
+
+#tweet-text {
+  background-color: #f4f1ec;
+  border:0ch;
+  border-bottom: 5px solid #545149;
+  margin-bottom: 10px;
+}
+
+.submit {
+  background-color: #4056A1;
+  color: #FFFFFF;
+  font-family: 'Bungee', cursive;
+}
+
+.subcounter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Bungee', cursive;
+  font-weight: bold;
+  color: #545149;
+}

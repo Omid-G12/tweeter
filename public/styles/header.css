@@ -1,0 +1,16 @@
+.header {
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  width: 100%;
+  background-color: #faad14;
+  background-image: url(http://www.transparenttextures.com/patterns/brick-wall-dark.png);
+  line-height: 10px;
+}
+
+.name {
+  color: aliceblue;
+}
