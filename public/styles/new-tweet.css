@@ -3,10 +3,12 @@ form {
   flex-direction: column;
   font-weight: bold;
   justify-content: space-evenly;
+  margin-top: 50px;
 }
 
 .new-tweet {
   width: 100%;
+  margin-bottom: 10px;
 }
 
 #tweet-text {
@@ -20,6 +22,10 @@ form {
   background-color: #4056A1;
   color: #FFFFFF;
   font-family: 'Bungee', cursive;
+}
+.submit:hover {
+  /*border: 5px solid #b7bdd1;*/
+  box-shadow: 5px 5px #b7bdd1;
 }
 
 .subcounter {

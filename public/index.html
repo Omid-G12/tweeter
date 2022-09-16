@@ -19,6 +19,7 @@
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.2/timeago.min.js" integrity="sha512-SVDh1zH5N9ChofSlNAK43lcNS7lWze6DTVx1JCXH1Tmno+0/1jMpdbR8YDgDUfcUrPp1xyE53G42GFrcM0CMVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
@@ -41,15 +42,19 @@
       </div>
       <br>
       <div class="name">
-          <h2>Your Name</h2>
+          <h2>Josephnia Mommathian</h2>
       </div>
     </header>
 
     <!-- Page-specific (main) content here -->
     <main class="container">
+      <section class="error">
+        <i class="fa-solid fa-triangle-exclamation"></i>
+        <p>Error message!</p>
+        <i class="fa-solid fa-triangle-exclamation"></i>
+      </section>
       <section class="new-tweet">
-        <h2>Compose Tweet</h2>
-        <form action="/tweets/" method="post">
+        <form id="form" action="/tweets" method="post">
           <label for="tweet-text" >What are you humming about?</label>
           <textarea name="text" id="tweet-text"></textarea>
           <div class="subcounter">
@@ -59,24 +64,6 @@
         </form>
       </section>
       <section class="all-tweets">
-        <article class="tweet">
-          <header>
-            <div class="face">
-              <i class="fa-solid fa-user"></i>
-              <p>Joseph Mommathian</p>
-            </div>
-            <p class="username">@Joemomma</p>
-          </header>
-          <p class="tweet-body">If I have seen further it is by standing on the shoulders of giants. . Big if true!</p>
-          <footer>
-            <p>date</p>
-            <p class="icon">
-              <i class="fa-solid fa-flag"></i>
-              <i class="fa-sharp fa-solid fa-retweet"></i>
-              <i class="fa-sharp fa-solid fa-heart"></i>
-            </p>
-          </footer>
-        </article>
         
       </section>
     </main>

@@ -72,6 +72,7 @@ article.tweet footer {
 .tweet-body {
   padding: 25px;
   font-weight: 500;
+  width: auto;
 }
 
 .username {
@@ -99,5 +100,22 @@ article.tweet footer {
   padding-left: 25px;
 }
 .fa-user {
+  padding-right: 10px;
+}
+
+.error {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid red;
+  width: 100%;
+  color: red;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.fa-triangle-exclamation {
+  padding-left: 10px;
   padding-right: 10px;
 }
