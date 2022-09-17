@@ -1,3 +1,4 @@
+
 /*
  * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
  * https://css-tricks.com/international-box-sizing-awareness-day/
@@ -118,4 +119,23 @@ article.tweet footer {
 .fa-triangle-exclamation {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+
+@media only screen and (min-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: row;
+  }
+  
+
+  .container {
+    display: flex;
+    width: 65%;
+    min-width: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    
+  }
 }

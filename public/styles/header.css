@@ -1,3 +1,5 @@
+
+
 .header {
   height: 520px;
   display: flex;
@@ -5,7 +7,7 @@
   justify-content: center;
   align-items: center;
   padding-top: 100px;
-  width: 100%;
+  /*width: 100%;*/
   background-color: #faad14;
   background-image: url(http://www.transparenttextures.com/patterns/brick-wall-dark.png);
   line-height: 10px;
@@ -13,4 +15,33 @@
 
 .name {
   color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.name h2 {
+  font-weight: 500;
+}
+
+.name h5 {
+  margin: 0%;
+  font-weight: 500;
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .header {
+    display: flex;
+    height: 400px;
+    width: 35%;
+    min-width: 300px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    margin-top: 240px;
+    padding: 0;
+    
+  }
 }
