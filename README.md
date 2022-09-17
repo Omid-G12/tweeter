@@ -16,3 +16,13 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+## Screenshots
+
+![Mobile Version](https://github.com/Omid-G12/tweeter/blob/master/docs/mobile-version.png?raw=true)
+
+![Desktop Version](https://github.com/Omid-G12/tweeter/blob/master/docs/desktop-version.png?raw=true)
+
+![New Tweet Box](https://github.com/Omid-G12/tweeter/blob/master/docs/new-tweet-box.png?raw=true)
+
+![Empty Tweet Error Message](https://github.com/Omid-G12/tweeter/blob/master/docs/empty-tweet-error.png?raw=true)
