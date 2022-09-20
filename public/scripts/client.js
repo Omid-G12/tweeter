@@ -72,8 +72,12 @@ $(document).ready(function() {
       const serializedData = $form.serialize();
       $.post('/tweets', serializedData, (response) => {
         loadTweets();
+        //ADDED TEXT AND COUNTER RESET
+        $('#tweet-text').val('');
+        $('.counter').val(140);
       });
     }
+    
   });
 
   const $container = $('.all-tweets');
