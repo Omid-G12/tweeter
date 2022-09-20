@@ -40,7 +40,7 @@ body {
 
 article.tweet {
   display: flex;
-  /*box-shadow: ;*/
+  word-wrap: break-word;
   border: 5px solid #545149;
   flex-direction: column;
   justify-content: space-between;

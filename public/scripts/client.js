@@ -87,7 +87,6 @@ $(document).ready(function() {
       type: 'GET',
       url: '/tweets',
       success: (data) => {
-        //console.log(data);
         $container.empty();
         renderTweets(data);  
       }
