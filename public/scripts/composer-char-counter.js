@@ -1,16 +1,15 @@
 $(document).ready(function() {
-  // --- our code goes here ---
   const text = $('#tweet-text')[0];
-  //console.log(text);
-  $(text).on('keyup', function() {
-    //textarea jQuery with .val()
+  //CHANGED FROM 'KEYUP' TO 'INPUT'
+  $(text).on('input', function() {
+    
     const counter = $(this).val().length;
     const val = 140 - counter;
-    //console.log(val);
+    
     const parent = $(this).parent()[0];
     const child = $(parent).find('.counter')[0];
     const newCounter = $(child).text(val);
-    //console.log(newCounter);
+    
     if (val < 0) {
       $('.counter').css("color", "red");
     } else {
